@@ -22,3 +22,66 @@ import couchdb
 import tweepy
 import json
 ```
+A continuacion se coloco las API:
+
+```
+###API ########################
+ckey = 'SKepyS4uZlyBmXV9xtxQP9hN8'
+csecret = '02DIS0kb8qGJpRAd1YfFn89Pmw73gSUGBVPJMWu5B8CD46rYNp'
+atoken = '115946548-UmysCzkNSMsbdUqad25NO2TlV6KodCfBjJ2RjMDJ'
+asecret = 'Lx1VT6yVeC2b3eQPmfyBMhQwKjViObqYZ6tF8dnUcJQU7'
+```
+
+Se creo una clase la cual permite la extraccion de datos y mediante un mensaje indica que los datos se han guardado o si ya existen :
+```
+class listener(tweepy.Stream):
+    
+    def on_data(self, data):
+        dictTweet = json.loads(data)
+        try:
+            
+            dictTweet["_id"] = str(dictTweet['id'])
+            doc = db.save(dictTweet)
+            print ("SAVED" + str(doc) +"=>" + str(data))
+        except:
+            print ("Already exists")
+            pass
+        return True
+    
+    def on_error(self, status):
+        print (status)
+```
+Despues se paso clas APIS como parametro para tenern acceso a la informacion , tambien se realizo la conexion con la base de datos localmente , en donde se coloca el nombre del usuario y contraseña : 
+
+```
+twitter_stream = listener(ckey, csecret,atoken,asecret)
+server = couchdb.Server('http://admin:12345@127.0.0.1:5984/')
+
+```
+
+Una vez realizada la conexion con la base de datos , se procede a crear la base de datos : 
+```
+try:
+    db = server.create('dbproyecto')
+except:
+    db = server['dbproyecto']
+
+```
+
+Finalmente se hace la obtencion de datos mediante filtro de palabras : 
+
+```
+twitter_stream.filter(track=['delincuencia','violencia','robos','Quito'])
+
+```
+
+Una vez realizado la obtencion de datos se verifico en la base de datos CouchDB. 
+Despues se procedio a Importar estos datos a la otra base que es SQL server , este procedimiento se lo realizo manualmente es decir se exporto e importo por interfaz grafica.
+Una vez importado los datos en la segunda base de datos se procedio a importar a la herramienta PowerBi y se realizo el analisis. 
+
+
+
+
+
+
+
