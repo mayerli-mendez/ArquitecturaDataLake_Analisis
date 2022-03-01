@@ -15,4 +15,10 @@
 
 La fuente 1 consite en obtener datos de la red social de Twitter , estos datos guardarlos en la base de datos CouchDb y una vez guardados , importarlos a otra base en este caso SQL Server y finalmente analizar la informacion mediante la herramienta power. 
 
-Lo primero que se realizo es la importacion de librerias 
+Lo primero que se realizo es la importacion de librerias :
+
+```
+import couchdb
+import tweepy
+import json
+```
