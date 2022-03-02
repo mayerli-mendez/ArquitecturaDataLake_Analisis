@@ -132,10 +132,8 @@ Al ejecutar dicho código obtendremos lo siguiente:
 ![image](https://user-images.githubusercontent.com/74751902/156440655-3a1d162a-4d89-4451-b0a9-d974f8f5ead5.png) ![image](https://user-images.githubusercontent.com/74751902/156440724-9c5ab07a-06eb-4606-9be0-8ce80148439b.png)  ![image](https://user-images.githubusercontent.com/74751902/156440768-7e60fb35-50d6-44dc-b563-0b5208e2ff53.png)
 
 
-![image](https://user-images.githubusercontent.com/74751902/156234518-f8541424-9ac3-4063-b52c-b4e9dc8ec68c.png)
-
 Verificamos los datos en MySQL 
 
 ![image](https://user-images.githubusercontent.com/74751902/156440309-241b6b3c-4e49-436b-800f-a0bd38f26cf5.png)
 
-Y como podemos observar se agregaron correctamente los datos a MySQL
+Y podemos observar que se agregaron correctamente los datos a MySQL
