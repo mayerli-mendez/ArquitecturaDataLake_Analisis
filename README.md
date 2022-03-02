@@ -55,10 +55,7 @@ for a in soup.findAll('li',{'class':'lx-stream__post-container'}):
     print()
 ```
 
-![image](https://user-images.githubusercontent.com/74751902/156440655-3a1d162a-4d89-4451-b0a9-d974f8f5ead5.png) ![image](https://user-images.githubusercontent.com/74751902/156440724-9c5ab07a-06eb-4606-9be0-8ce80148439b.png)  ![image](https://user-images.githubusercontent.com/74751902/156440768-7e60fb35-50d6-44dc-b563-0b5208e2ff53.png)
-
 ![image](https://user-images.githubusercontent.com/74751902/156231983-41bd8250-8267-41fb-8097-a365e34af6f8.png)
-
 
 
 Visto que nuestros datos se encuentran correctos, procederemos a enviar nuestros datos a MongoDB, para ello exportamos nuestra libreria pymongo, la cual nos permitira realizar la conexión con nuestra base:
@@ -130,6 +127,10 @@ df.to_sql("BBCNews",con=engine,if_exists="replace")
 ```
 
 Al ejecutar dicho código obtendremos lo siguiente: 
+
+
+![image](https://user-images.githubusercontent.com/74751902/156440655-3a1d162a-4d89-4451-b0a9-d974f8f5ead5.png) ![image](https://user-images.githubusercontent.com/74751902/156440724-9c5ab07a-06eb-4606-9be0-8ce80148439b.png)  ![image](https://user-images.githubusercontent.com/74751902/156440768-7e60fb35-50d6-44dc-b563-0b5208e2ff53.png)
+
 
 ![image](https://user-images.githubusercontent.com/74751902/156234518-f8541424-9ac3-4063-b52c-b4e9dc8ec68c.png)
 
