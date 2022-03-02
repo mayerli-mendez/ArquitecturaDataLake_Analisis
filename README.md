@@ -3,7 +3,7 @@
 ## Integrantes : 
 
 * Manuel Auqui
-* Maria Jose Chala
+* María José Chalá
 * Leoni Guambo
 * Mayerli Mendez
 * Jorge Ortiz
