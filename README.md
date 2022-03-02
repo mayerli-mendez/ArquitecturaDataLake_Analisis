@@ -132,3 +132,6 @@ Al ejecutar dicho código obtendremos lo siguiente:
 
 Verificamos los datos en MySQL 
 
+![image](https://user-images.githubusercontent.com/74751902/156440309-241b6b3c-4e49-436b-800f-a0bd38f26cf5.png)
+
+Y como podemos observar se agregaron correctamente los datos a MySQL
