@@ -5,11 +5,6 @@ La  fuente 8 consiste en obtener datos de Noticias o Eventos del mundo mediante 
 
 Inspeccionamos nuestra página web, en este caso sera: https://www.bbc.com/mundo/topics/c2lej05epw5t
 
-![image](https://user-images.githubusercontent.com/74751902/156440655-3a1d162a-4d89-4451-b0a9-d974f8f5ead5.png) ![image](https://user-images.githubusercontent.com/74751902/156440724-9c5ab07a-06eb-4606-9be0-8ce80148439b.png)  ![image](https://user-images.githubusercontent.com/74751902/156440768-7e60fb35-50d6-44dc-b563-0b5208e2ff53.png)
-
-
-
-
 ![image](https://user-images.githubusercontent.com/74751902/156231688-3c0840ad-4c15-4454-abf7-9b24e4b1001a.png)  
 
 
@@ -59,6 +54,8 @@ for a in soup.findAll('li',{'class':'lx-stream__post-container'}):
     print ('\033[1mContenido: \033[0m',contenido)
     print()
 ```
+
+![image](https://user-images.githubusercontent.com/74751902/156440655-3a1d162a-4d89-4451-b0a9-d974f8f5ead5.png) ![image](https://user-images.githubusercontent.com/74751902/156440724-9c5ab07a-06eb-4606-9be0-8ce80148439b.png)  ![image](https://user-images.githubusercontent.com/74751902/156440768-7e60fb35-50d6-44dc-b563-0b5208e2ff53.png)
 
 ![image](https://user-images.githubusercontent.com/74751902/156231983-41bd8250-8267-41fb-8097-a365e34af6f8.png)
 
