@@ -96,7 +96,7 @@ Una vez importado los datos en SQL server se procedió a importar a la herramien
 
 Para ello hacemos conexión con el nombre de servidor y el nombre de la base de datos la cual se desea importar : 
 
-![image](![image](https://user-images.githubusercontent.com/74840012/156651828-910e2097-94e3-4851-8103-bc0175923ee9.png)
+![image](https://user-images.githubusercontent.com/74840012/156651828-910e2097-94e3-4851-8103-bc0175923ee9.png)
 
 
 A continuación, se hizo un filtrado por hashtag  y descripción según el tweet : 
