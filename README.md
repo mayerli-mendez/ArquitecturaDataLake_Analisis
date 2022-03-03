@@ -1,6 +1,7 @@
 
-![Esta es una imagen](![image](https://user-images.githubusercontent.com/74840012/156651558-361e0104-f575-4d5a-8aa1-92217cdf9eee.png)
+(![image](![image](https://user-images.githubusercontent.com/74840012/156652021-b6e086b8-d5d9-4275-818e-1efb4ad66ac8.png)
 )
+
 
 La fuente 1 consiste en obtener datos de la red social de Twitter, estos datos guardarlos en la base de datos CouchDb y una vez guardados, importarlos a otra base SQL Server y finalmente analizar la información mediante la herramienta PowerBi. 
 
@@ -66,7 +67,7 @@ twitter_stream.filter(track=['delincuencia','violencia','robos','Quito'])
 
 Una vez realizado la obtención de datos se verifico en la base de datos CouchDB :
 
-![Esta es una imagen](![image](https://user-images.githubusercontent.com/74840012/156651676-7deeecae-13a5-4c02-8cef-1077274c0150.png)
+(![image](https://user-images.githubusercontent.com/74840012/156651676-7deeecae-13a5-4c02-8cef-1077274c0150.png))
 
 
 Una vez que se verifico los datos se procedió a exportar en formato csv y de ahí se importó a la base de datos SQL server mediante interfaz gráfica.
@@ -81,7 +82,7 @@ CREATE DATABASE PROYECTO
 Una vez creada la base se importó : 
 
 
-![Esta es una imagen](![image](https://user-images.githubusercontent.com/74840012/156651717-4308f242-8874-45d2-b27d-f4875a27ce1c.png)
+(![image](https://user-images.githubusercontent.com/74840012/156651717-4308f242-8874-45d2-b27d-f4875a27ce1c.png))
 
 
 Y verificamos que los datos se han importado correctamente con la función SELECT y el nombre de la tabla en la base de datos de SQL server : 
@@ -91,7 +92,7 @@ SELECT * FROM bdproyecto
 
 ```
 
-![Esta es una imagen](![image](https://user-images.githubusercontent.com/74840012/156651756-66f7334d-e2e9-4478-815d-74be5fe53938.png)
+(![image](https://user-images.githubusercontent.com/74840012/156651756-66f7334d-e2e9-4478-815d-74be5fe53938.png))
 
 
 
@@ -99,11 +100,11 @@ Una vez importado los datos en SQL server se procedió a importar a la herramien
 
 Para ello hacemos conexión con el nombre de servidor y el nombre de la base de datos la cual se desea importar : 
 
-![Esta es una imagen](![image](![image](https://user-images.githubusercontent.com/74840012/156651828-910e2097-94e3-4851-8103-bc0175923ee9.png)
+(![image](![image](https://user-images.githubusercontent.com/74840012/156651828-910e2097-94e3-4851-8103-bc0175923ee9.png))
 
 
 
 A continuación, se hizo un filtrado por hashtag  y descripción según el tweet : 
 
-![Esta es una imagen](![image](https://user-images.githubusercontent.com/74840012/156651857-8059745b-d341-4b74-877b-c1282046caec.png)
+(![image](https://user-images.githubusercontent.com/74840012/156651857-8059745b-d341-4b74-877b-c1282046caec.png))
 
