@@ -6,3 +6,24 @@ Podremos visualizarlo y obtner los resultados mediante el comando tiktok-scraper
 d: fomrato csv
 z: formato zip
 t:formato json
+Al momoento de tener un archivo csv o json podremos utilizar Python para la realizacion del envio de datos a MongoDB entonces que libreria se usaran:
+'''
+import json
+import pandas as pd
+import pymongo
+'''
+Esto nos ayudara con el desarrollo del envio. Utilizando pyomongo.Client() nos ayudara en la URL de conexion de mongo y el puerto 27017 de nuestro localhost y podremos usar pandas para la lectura de nuestro csv o json al envio de nuestra base de datos Mongo. Si seguimos todos estos pasos podremos enviar sin ningun problema nuestro archivo a MongoDB.
+'''
+import json
+import pandas as pd
+import pymongo
+client=pymongo.MongoClient('mongodb://localhost:27017')
+df=pd.read_json("AssasinsCreedIV.json")
+print(df.head())
+data=df.to_dict(orient="record")
+print(data)
+db=client["JuegosUbisoft"]
+print(db)
+db.BlackFlag.insert_many(data)
+
+'''
