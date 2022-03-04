@@ -1,5 +1,4 @@
-
-![image](https://user-images.githubusercontent.com/74840012/156653511-74915d0f-9344-4e37-89e8-a9f717a74aea.PNG)
+![image](https://user-images.githubusercontent.com/74840012/156794297-385f9fbe-b41c-4fe5-ad9b-f21809b3f2ee.png)
 
 La fuente 7 consiste en obtener datos de la red social Facebook, estos datos se guardaran en la base de datos CouchDb y una vez guardados, importarlos a la base de MongoAtlas finalmente analizar la información mediante la herramienta PowerBi. 
 
