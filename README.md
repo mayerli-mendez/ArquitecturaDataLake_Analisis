@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/74840012/156654786-2a25eedc-68b0-41d9-8222-6d3706ff9d4c.PNG)
+![image](https://user-images.githubusercontent.com/74840012/156794083-9295ada6-ee8c-4e8a-92a3-ffd774ee822b.png)
 
 La fuente 3 consiste en obtener datos de la red social de Twitter, estos datos guardarlos en la base de datos MongoDB y una vez guardados , importarlos a otra base MYSQL y finalmente analizar la información mediante la herramienta PowerBI. 
 
