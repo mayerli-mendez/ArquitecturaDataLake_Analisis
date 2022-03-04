@@ -58,7 +58,8 @@ for post in get_posts('FreeFireSA', pages=10, extra_info=True):
     except Exception as e:    
         print("no se pudo grabar:" + str(e))
 ```
-![image](https://user-images.githubusercontent.com/74801652/156792845-21abcd51-397e-4475-bb8b-2f14144ecf20.png)
+![image](https://user-images.githubusercontent.com/74801652/156793507-b336400e-9f3b-4c62-b8cf-2828310e0661.png)
+
 
 
 Ahora se procedera a exportar la informacion recopilida en mongoDb a la base de datos SQlite
