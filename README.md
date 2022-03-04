@@ -113,3 +113,4 @@ except requests.ConnectionError as e:
     print("Error al crear datos")
  ```
 Para la finalizacion de la fuente se utiliza la herramienta PowerBi donde se realiza un estudio de todos los datos obtenidos en las diferentes bases de datos
+
