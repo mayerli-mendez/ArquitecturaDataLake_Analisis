@@ -1,5 +1,5 @@
 
-![image](https://user-images.githubusercontent.com/74840012/156655326-585a756c-fda3-4575-ae1a-10318e135a8c.PNG)
+![image](https://user-images.githubusercontent.com/74840012/156794480-b51128d0-6640-4c8f-bf64-6aebb26b6a2c.png)
 
 La fuente 5 consiste en obtener datos de la red social de Facebook, estos datos guardarlos en la base de datos MongoDb y una vez guardados, importarlos a la base de datos SQLite y finalmente analizar la información mediante la herramienta PowerBi. 
 
