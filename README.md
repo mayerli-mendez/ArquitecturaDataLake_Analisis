@@ -22,6 +22,8 @@ nombredb='facebook-olympics'
 db=couch[nombredb]
 ```
 Se muestra un el codigo donde se procede a extraer la informacion de facebook y guardarlo en la base de datos de cocuch, con un formato json mostrado a continuacion 
+![image](https://user-images.githubusercontent.com/74801652/156794633-6a594ea1-6e32-43dd-be0a-c70e8b9aac4d.png)
+
 ```
 i=1
 for post in get_posts('olympics', pages=10, extra_info=True):
