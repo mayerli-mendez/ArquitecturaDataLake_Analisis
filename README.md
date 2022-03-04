@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/74840012/156652021-b6e086b8-d5d9-4275-818e-1efb4ad66ac8.png)  
+![image](https://user-images.githubusercontent.com/74840012/156793964-acbf33dc-9bcc-43f6-b0a1-4443157406fc.png)
 
 La fuente 1 consiste en obtener datos de la red social de Twitter, estos datos guardarlos en la base de datos CouchDb y una vez guardados, importarlos a otra base SQL Server y finalmente analizar la información mediante la herramienta PowerBi. 
 
