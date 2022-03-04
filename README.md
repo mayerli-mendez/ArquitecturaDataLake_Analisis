@@ -122,4 +122,4 @@ conn.commit()
 ```
 La funcion row. ayudara a extraer el contenido de nuestrp csv
 Finalmente utilizaremos Power Bi para obtener los datos directamente con la opcion de obtener Datos por medio de SQL y luego podremos poner en crear datos. Luego introduciremos graficos acorde al analisis que entedamos por meido de los campos del archivo de SQL Server y las multiples opciones de visualizacion como : Mapa coreograico, rueda de paste y tabla de lineas.
-![Esta es una imagen](https://southcentralus1-mediap.svc.ms/transform/thumbnail?provider=spo&inputFormat=png&cs=fFNQTw&docidepnecuador-my.sharepoint.com/personal/jorge_ortiz_epn_edu_ec/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjorge%5Fortiz%5Fepn%5Fedu%5Fec%2FDocuments%2FWhatsApp%20Image%202022%2D02%2D25%20at%208%2E47%2E01%20PM%2Ejpeg&parent=%2Fpersonal%2Fjorge%5Fortiz%5Fepn%5Fedu%5Fec%2FDocuments
+![image](https://user-images.githubusercontent.com/75078028/156794130-2cfbb45f-f00e-4d5c-a4e5-4b66cd215a9e.png)
