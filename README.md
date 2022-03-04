@@ -58,10 +58,8 @@ for post in get_posts('olympics', pages=10, extra_info=True):
         print("no se pudo grabar:" + str(e))
  ```
  Se verifica la informacion guardada en la base de couchDB
- ```
- ![image](https://user-images.githubusercontent.com/74801652/156790989-a9b6d742-2b9f-4fdc-a8be-394dbeb3d425.png)
+![image](https://user-images.githubusercontent.com/74801652/156791121-9ad110ef-765e-4b87-b4bd-7f2da5118efc.png)
 
- ```
  
  Ahora se procedera a exportar los datos de couchDB y cargarlo en la base de datos atlas para eso se comienza con importar las librerias de client, couch json y certifi
   ```
