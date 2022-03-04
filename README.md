@@ -11,10 +11,14 @@
 # Desarrollo
 
 Se realizo la siguiente arquitectura 
-
-![image](https://user-images.githubusercontent.com/74840012/156772850-814a8992-49b1-45da-9225-1c77722a9a50.png)
-![image](https://user-images.githubusercontent.com/74840012/156773050-7c8e0dcd-f9a7-4c9d-85e2-48c54bfeb384.png)
-![image](https://user-images.githubusercontent.com/74840012/156773066-a9a9189e-1155-4c92-9c70-390ec63ffe35.png)
+![image](https://user-images.githubusercontent.com/74840012/156792863-ab4b5771-42de-4eb8-a614-b0c97e9ca5a8.png)
+![image](https://user-images.githubusercontent.com/74840012/156792877-50b96026-a8ba-43a4-ac7f-eef86973b0ab.png)
+![image](https://user-images.githubusercontent.com/74840012/156792896-b974daf4-a1dd-4cab-bdb0-c1b260614ab6.png)
+![image](https://user-images.githubusercontent.com/74840012/156792912-fa2dee38-2be8-4fd0-b8b0-14c41ffdf683.png)
+![image](https://user-images.githubusercontent.com/74840012/156792925-bc8e343f-da3e-4ed9-ad3e-201a3fc69b33.png)
+![image](https://user-images.githubusercontent.com/74840012/156792938-f38c4ef4-af73-48ac-b231-4e9fb1e95d2a.png)
+![image](https://user-images.githubusercontent.com/74840012/156792951-e8a1250e-e789-4d23-a047-d1bf5df23f0e.png)
+![image](https://user-images.githubusercontent.com/74840012/156792982-2d3f71e4-b619-41e4-816e-5b8b862f7a73.png)
 
 
 La explicacion de cada fuente se encuentra a continuacion: 
