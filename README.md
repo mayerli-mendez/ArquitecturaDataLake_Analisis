@@ -136,3 +136,10 @@ Verificamos los datos en MySQL
 ![image](https://user-images.githubusercontent.com/74751902/156440309-241b6b3c-4e49-436b-800f-a0bd38f26cf5.png)
 
 Y podemos observar que se agregaron correctamente los datos a MySQL
+
+Una vez exportados los datos a cada una de nuestras bases de datos, procedemos a analizarlos mediante la herramienta PowerBi.
+Para ello mostraremos el contenido de la noticia dependiendo del autor de la misma. Esto lo haremos a partir de un diagrama de filtrado como se presentará a continuación:
+
+![image](https://user-images.githubusercontent.com/74751902/156832906-07eddb1f-c24c-48c0-afaf-c126f28545e9.png)
+
+
