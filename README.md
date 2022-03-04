@@ -112,5 +112,9 @@ except requests.ConnectionError as e:
     raise e
     print("Error al crear datos")
  ```
+![image](https://user-images.githubusercontent.com/74801652/156790163-bee7a4b6-e0e7-4c22-a2e8-a5adda13788b.png)
+
 Para la finalizacion de la fuente se utiliza la herramienta PowerBi donde se realiza un estudio de todos los datos obtenidos en las diferentes bases de datos
+
+
 
