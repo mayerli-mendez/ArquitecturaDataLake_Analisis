@@ -1,5 +1,5 @@
 
-![image](https://user-images.githubusercontent.com/74840012/156794167-8731121e-4d1c-44e1-92dd-15ff6447dcfe.png)
+![image](https://user-images.githubusercontent.com/74840012/156655326-585a756c-fda3-4575-ae1a-10318e135a8c.PNG)
 
 La fuente 5 consiste en obtener datos de la red social de Facebook, estos datos guardarlos en la base de datos MongoDb y una vez guardados, importarlos a la base de datos SQLite y finalmente analizar la información mediante la herramienta PowerBi. 
 
@@ -74,6 +74,9 @@ df = pd.DataFrame(list(collection.find()))## Exportar a Excel o CSV:
 df.to_csv('facebook-free-fire.csv', index=False,)
 
 ```
+![image](https://user-images.githubusercontent.com/74801652/156794191-34c5f4bc-8898-466b-b028-25f020629042.png)
+
+
 Se realiza la conexión de la base Sqlite, y se crea una nueva tabla en la base con el nombre respectivo
 
 ```
