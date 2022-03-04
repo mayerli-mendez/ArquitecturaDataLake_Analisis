@@ -84,4 +84,8 @@ c = conn.cursor()
 users = pd.read_csv('facebook-free-fire.csv')
 users.to_sql('recoleccion', conn, if_exists='append', index = False, chunksize = 10000)
 ```
+![image](https://user-images.githubusercontent.com/74801652/156793360-858d54ad-7247-4d4d-acdb-f2ab6660cccb.png)
+
+
+
 Para la finalizacion de la fuente 5 se utiliza la herramienta PowerBi donde se realiza un estudio de todos los datos obtenidos en las diferentes bases de datos, realizando su respectivo filtrado y estudio de los datos
