@@ -1,5 +1,4 @@
-
-![image](https://user-images.githubusercontent.com/74840012/156655478-4edef9d6-aaf2-4577-be06-9da5213f9cbc.PNG)
+![image](https://user-images.githubusercontent.com/74840012/156794221-e3a068b8-2fcd-4936-be88-d0b01bfe0a18.png)
 
 Para la Realizacion de este proyecto de la fuente 6 primero descargaremos meidante tiktok scrpaer datos actualizados acerca de un tema en especifico: Assasins Creed Black Flag
 Podremos visualizarlo y obtner los resultados mediante el comando tiktok-scraper hashtag AssasinsCreedBlackFlag -n 10 -d -t -z all donde nos ayudara con la descarga:
