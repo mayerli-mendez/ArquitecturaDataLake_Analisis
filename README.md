@@ -13,8 +13,8 @@
 Se realizo la siguiente arquitectura 
 
 ![image](https://user-images.githubusercontent.com/74840012/156772850-814a8992-49b1-45da-9225-1c77722a9a50.png)
-![image](https://user-images.githubusercontent.com/74840012/156772864-2e9e19b0-6192-496f-81cf-a6c29b69d08c.png)
-![image](https://user-images.githubusercontent.com/74840012/156772877-00afdd98-72e8-4652-9c1e-443c25cafc5f.png)
+![image](https://user-images.githubusercontent.com/74840012/156773050-7c8e0dcd-f9a7-4c9d-85e2-48c54bfeb384.png)
+![image](https://user-images.githubusercontent.com/74840012/156773066-a9a9189e-1155-4c92-9c70-390ec63ffe35.png)
 
 
 La explicacion de cada fuente se encuentra a continuacion: 
