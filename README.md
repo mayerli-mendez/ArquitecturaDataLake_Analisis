@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/74840012/156653352-9613e2a2-8a0e-45f3-a39d-73e96378e535.PNG)
+![image](https://user-images.githubusercontent.com/74840012/156794338-7b0743f2-ada9-40a2-8ead-8d306221477f.png)
 
 La  fuente 8 consiste en obtener datos de Noticias o Eventos del mundo mediante WebScraping, estos datos se guardaran en la base de datos MongoDB, luego se exportaran a la base de datos MySQL y, finalmente se analizarán los datos obtenidosmediante el uso de la herramienta PowerBi..
 
